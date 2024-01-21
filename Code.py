@@ -15,8 +15,11 @@ def organize_downloads(download_folder_path):
         '.txt': 'TextFiles',
         '.mp3': 'Music',
         '.mp4': 'Videos',
+        '.mov': 'Videos',
         '.zip': 'Archives',
-        '.rar': 'Archives'
+        '.rar': 'Archives',
+        '.webp': 'Images',
+        '.svg': 'Images'
         # Add more file types and folders as needed
     }
 
@@ -36,6 +39,6 @@ def organize_downloads(download_folder_path):
                 shutil.move(file_path, os.path.join(download_folder_path, folder_name, filename))
 
 # Replace '[YourUsername]' with your actual username on your Mac
-download_folder_path = '/Users/[YourUsername]/Downloads'
+download_folder_path = '/Users/tylermaire/Downloads'
 organize_downloads(download_folder_path)
 
