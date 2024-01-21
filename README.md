@@ -1,7 +1,3 @@
-Certainly! Here's a README section for your GitHub repository that describes the purpose and usage of the Python script you have for organizing files in the Downloads folder. You can add this to a `README.md` file in your repository.
-
----
-
 # Downloads Folder Organizer
 
 This Python script helps you to automatically organize files in your Downloads folder into designated subfolders based on their file types. It's a simple and efficient way to keep your Downloads folder uncluttered.
